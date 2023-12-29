@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Secior Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;800&display=swap" rel="stylesheet">
+</head>
+<body>
+        <div id="header">
+            <h1 id="h1">Rock Paper Secisor Game</h1>
+            <img src="/img/FinalLogo.png" alt="">
+        </div>
+
+    <section id="container">
+        <div class="img-box" id="rock">
+            <img src="/img/rock.png" alt="">
+        </div>
+        <div class="img-box" id="paper">
+            <img src="/img/paper.png" alt="">
+        </div>
+        <div class="img-box" id="scissors">
+            <img src="/img/scissors.png" alt="">
+        </div>
+    </section>
+
+    <div id="score-Container">
+            <div class="scoreBox">
+                <p class="score" id="userScore">0</p>
+                <p>User Score</p>
+            </div>
+            <div class="scoreBox">
+                <p class="score" id="compScore">0</p>
+                <p>Computer Score</p>
+            </div>
+    </div>
+
+    <div id="msg-container">
+        <p id="msg">Select your Choice</p>
+    </div>
+
+    <div id="inforamtionCon">
+        <p id="countClick" class="countBox">No Of Click = 0</p>
+        <p id="CountUser" class="countBox">User Win = 0</p>
+        <p id="countComputer" class="countBox">computer Win = 0</p>
+        <p id="countDraw" class="countBox">Draw = 0</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
